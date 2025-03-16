@@ -20,10 +20,21 @@
          else if ($imc < 18){
             echo "magreza leve com imc: ".$imc;
          }
-        
-
-        
-        
+         else if ($imc >= 18 && $imc < 25){
+            echo "peso normal com imc: ".$imc;
+         }
+         else if ($imc >= 25 && $imc < 30){
+            echo "sobrepeso com imc: ".$imc;
+         }
+         else if ($imc >= 30 && $imc < 35){
+            echo "obesidade grau 1 com imc: ".$imc;
+         }
+         else if ($imc >= 35 && $imc < 40){
+            echo "obesidade grau 2 com imc: ".$imc;
+         }
+         else if ($imc > 40){
+            echo "obesidade grau 3 com imc: ".$imc;
+         }
 
     ?>
 </body>
