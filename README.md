@@ -3,7 +3,7 @@
 Este repositório contém quatro programas desenvolvidos para resolver diferentes problemas com entrada e processamento de dados.  
 
 # Estrutura do Repositório  
-
+```
 ExerciciosPHP/
 ├── atividade1/
 │   ├── index.php
@@ -17,7 +17,7 @@ ExerciciosPHP/
 ├── atividade4/
 │   ├── index.php
 │   ├── calcular.php
-
+```
 # Como Executar  
 
 Para todas as atividades:  
